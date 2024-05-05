@@ -1,0 +1,136 @@
+@import url(font.css);
+body{
+    font-family:"Nunito Sans" ;
+    margin: 0;
+}
+header{
+    background-color:#131313 ;
+    width: 1440px;
+    height: 783px;
+    display: grid;
+    grid-template-columns: 442px 50px 679px;
+    grid-template-rows: 107px 24px 552px;
+    padding-left: 134px;   
+}
+.header__nav{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.header_nav_list{
+    margin: 0;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;*/
+    display:grid;
+    grid-template-columns: 194px 60px 109px 60px 199px;
+    width: 650px;
+    height: 25px;
+    padding-left: 0;
+}
+.header_nav_items_1{
+    grid-column: 3/4;
+    /*padding-right: 60.5px;*/
+    font-family: Yeseva One;
+    text-decoration: none;
+    color: white;
+    opacity: 0.3;
+    font-size: 14px;
+}
+.header_nav_items_2{
+    grid-column: 5/6;
+    /*padding-right: 60.5px;*/
+    font-family: Yeseva One;
+    text-decoration: none;
+    color: white;
+    opacity: 0.3;
+    font-size: 14px;
+}
+
+.header_nav_items_o{
+    grid-column: 1/2;
+    padding-right: 60.5px;
+    width: 194px;
+    font-family: Yeseva One;
+    text-decoration: none;
+    color: #E3B873;
+    font-size: 14px;
+}
+.header__container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.header__article{
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+    height: 390px;
+
+}
+.header__h1{
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;  
+}
+.header__p1{
+    color: #FFFFFF;
+    font-size: 14px;  
+}
+.header__board{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.header__h3{
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px; 
+}
+.header__text{
+    color: #FFFFFF;
+    font-size: 13px;
+    width: 161px;
+}
+.arrows{
+    display: grid;
+    grid-template-columns:41px  64px 29px 41px ;
+    grid-template-rows: 20px;
+}
+.strelka_l{
+   color: #FFFFFF;
+   grid-column: 1/2;
+   grid-row: 1;
+}
+.slider_dots{
+    
+    grid-column: 2/3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+.slider_dot.active{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.slider_dot{
+    color: rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: row;
+    padding-left: 17px;
+}
+.strelka_r{
+    color: #FFFFFF;
+    grid-column: 4/5;
+    grid-row: 1;
+ }
+.header__img{
+    margin-top:45px;
+    margin-left: 50px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
